@@ -16,6 +16,7 @@ heading {
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
+	background-color: black;
 	border-bottom: 1px solid seashell;
 	}
 	heading img {
@@ -42,7 +43,6 @@ heading {
 	height: 700px;
 	margin: 69px auto 0 auto;
 	background-image: url("../images/img-mission-background.jpg");
-	/* background-size: cover; */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;	
@@ -56,3 +56,30 @@ heading {
 		margin: 0;
 		padding: 10px;
 		}
+
+
+.locations {
+	width: 1200px;
+	height: 500px;
+	margin: 0 auto;
+	background-image: url("../images/img-locations-background.jpg");
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	}
+	.locations h2 {
+		margin-bottom: 15px;
+		}
+	.locations .location {
+		width: 300px;
+		padding: 10px;
+		margin: 0 20px;
+		display: inline-block;
+		background-color: black;
+		}
+
+
+footer {
+	margin-left: 20px;
+	text-align: left;
+	}
