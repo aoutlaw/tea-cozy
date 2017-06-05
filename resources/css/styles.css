@@ -26,6 +26,7 @@ heading {
 	flex-wrap: wrap;
 	background-color: black;
 	border-bottom: 1px solid seashell;
+	z-index: 100;
 	}
 	heading img {
 		margin-left: 10px;
